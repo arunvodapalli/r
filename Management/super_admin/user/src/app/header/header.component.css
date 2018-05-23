@@ -1,0 +1,30 @@
+.main-header{
+    height: 80px;
+    width: 100%;
+    background-color: var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-core{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    color: #fff;
+    font-weight: var(--font-weight-bold);
+}
+h1 span{
+    color: inherit;
+    font-size: 80%;
+}
+.logout-btn{
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 80%;
+}

@@ -1,0 +1,41 @@
+.main-container{
+    min-height: 90vh;
+    width: 100%;
+}
+.core{
+    background-color: #fff;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.title{
+    font-size: 140%;
+    margin-bottom: 10px;
+}
+label,input{
+    width: 250px;
+    font-size: 80%;
+}
+hr{
+    width: 50%;
+}
+input{
+    height: 40px;
+    padding: 0 5px;
+}
+label{
+    text-align: left;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.submit-btn{
+    margin-top: 20px;
+    height: 35px;
+    width: 140px;
+    background-color: var(--theme-color);
+    color: #fff;
+    font-size: 80%;
+}
