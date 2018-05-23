@@ -1,0 +1,15 @@
+.nav{
+  width: 240px;
+  border-right: 1px solid var(--border-color);
+}
+nav ul li{
+  height: 35px;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  text-align: left;
+  cursor: pointer;
+}
